@@ -22,6 +22,8 @@
 		09178C6E18108B5F00FB3621 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 09178C6C18108B5F00FB3621 /* InfoPlist.strings */; };
 		09178C7018108B5F00FB3621 /* Tap_MeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 09178C6F18108B5F00FB3621 /* Tap_MeTests.m */; };
 		09178CBF1811D04100FB3621 /* Animal.m in Sources */ = {isa = PBXBuildFile; fileRef = 09178CBE1811D04100FB3621 /* Animal.m */; };
+		09178CC81811E75000FB3621 /* RolesTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 09178CC71811E75000FB3621 /* RolesTVC.m */; };
+		09178CCB1811E76000FB3621 /* AddRoleTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 09178CCA1811E76000FB3621 /* AddRoleTVC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +58,10 @@
 		09178C6F18108B5F00FB3621 /* Tap_MeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tap_MeTests.m; sourceTree = "<group>"; };
 		09178CBD1811D04100FB3621 /* Animal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Animal.h; sourceTree = "<group>"; };
 		09178CBE1811D04100FB3621 /* Animal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Animal.m; sourceTree = "<group>"; };
+		09178CC61811E75000FB3621 /* RolesTVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RolesTVC.h; sourceTree = "<group>"; };
+		09178CC71811E75000FB3621 /* RolesTVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RolesTVC.m; sourceTree = "<group>"; };
+		09178CC91811E76000FB3621 /* AddRoleTVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddRoleTVC.h; sourceTree = "<group>"; };
+		09178CCA1811E76000FB3621 /* AddRoleTVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddRoleTVC.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +124,10 @@
 				09178C5318108B5F00FB3621 /* AppDelegate.h */,
 				09178C5418108B5F00FB3621 /* AppDelegate.m */,
 				09178C5618108B5F00FB3621 /* Main.storyboard */,
+				09178CC61811E75000FB3621 /* RolesTVC.h */,
+				09178CC71811E75000FB3621 /* RolesTVC.m */,
+				09178CC91811E76000FB3621 /* AddRoleTVC.h */,
+				09178CCA1811E76000FB3621 /* AddRoleTVC.m */,
 				09178C5918108B5F00FB3621 /* ViewController.h */,
 				09178C5A18108B5F00FB3621 /* ViewController.m */,
 				09178C5C18108B5F00FB3621 /* Images.xcassets */,
@@ -255,9 +265,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				09178C5B18108B5F00FB3621 /* ViewController.m in Sources */,
+				09178CCB1811E76000FB3621 /* AddRoleTVC.m in Sources */,
 				09178CBF1811D04100FB3621 /* Animal.m in Sources */,
 				09178C5518108B5F00FB3621 /* AppDelegate.m in Sources */,
 				09178C5118108B5F00FB3621 /* main.m in Sources */,
+				09178CC81811E75000FB3621 /* RolesTVC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

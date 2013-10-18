@@ -19,8 +19,21 @@
     [myFirstPet setTotalLegs:4];
     [myFirstPet setHasFur:YES];
     
+    Animal *mySecondPet = [[Animal alloc] init];
+    [myFirstPet setAnimalName:@"Jack"];
+    [myFirstPet setTotalLegs:2];
+    [myFirstPet setHasFur:NO];
+    
     NSLog(@"%@ has %i legs", myFirstPet.animalName, myFirstPet.totalLegs);
     [myFirstPet doTrick:5 isHungry:YES eatFood:@"Biscuits"];
+    
+    NSMutableArray *myArray = [[NSMutableArray alloc] initWithCapacity:0];
+    [myArray addObject:myFirstPet];
+    [myArray addObject:mySecondPet];
+    
+    for(Animal *animal in myArray) {
+        [animal doTrick:7 isHungry:FALSE eatFood:@"Nothing"];
+    }
     
     return YES;
 }
