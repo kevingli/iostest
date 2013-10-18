@@ -7,12 +7,21 @@
 //
 
 #import "AppDelegate.h"
+#include "Animal.h"
 
 @implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    Animal *myFirstPet = [[Animal alloc] init];
+    [myFirstPet setAnimalName:@"Rover"];
+    [myFirstPet setTotalLegs:4];
+    [myFirstPet setHasFur:YES];
+    
+    NSLog(@"%@ has %i legs", myFirstPet.animalName, myFirstPet.totalLegs);
+    [myFirstPet doTrick:5 isHungry:YES eatFood:@"Biscuits"];
+    
     return YES;
 }
 							
@@ -42,5 +51,6 @@
 {
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
 }
+
 
 @end

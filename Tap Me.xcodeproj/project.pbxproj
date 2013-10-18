@@ -21,6 +21,7 @@
 		09178C6618108B5F00FB3621 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09178C4818108B5F00FB3621 /* UIKit.framework */; };
 		09178C6E18108B5F00FB3621 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 09178C6C18108B5F00FB3621 /* InfoPlist.strings */; };
 		09178C7018108B5F00FB3621 /* Tap_MeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 09178C6F18108B5F00FB3621 /* Tap_MeTests.m */; };
+		09178CBF1811D04100FB3621 /* Animal.m in Sources */ = {isa = PBXBuildFile; fileRef = 09178CBE1811D04100FB3621 /* Animal.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		09178C6B18108B5F00FB3621 /* Tap MeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Tap MeTests-Info.plist"; sourceTree = "<group>"; };
 		09178C6D18108B5F00FB3621 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		09178C6F18108B5F00FB3621 /* Tap_MeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tap_MeTests.m; sourceTree = "<group>"; };
+		09178CBD1811D04100FB3621 /* Animal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Animal.h; sourceTree = "<group>"; };
+		09178CBE1811D04100FB3621 /* Animal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Animal.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +122,8 @@
 				09178C5A18108B5F00FB3621 /* ViewController.m */,
 				09178C5C18108B5F00FB3621 /* Images.xcassets */,
 				09178C4B18108B5F00FB3621 /* Supporting Files */,
+				09178CBD1811D04100FB3621 /* Animal.h */,
+				09178CBE1811D04100FB3621 /* Animal.m */,
 			);
 			path = "Tap Me";
 			sourceTree = "<group>";
@@ -250,6 +255,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				09178C5B18108B5F00FB3621 /* ViewController.m in Sources */,
+				09178CBF1811D04100FB3621 /* Animal.m in Sources */,
 				09178C5518108B5F00FB3621 /* AppDelegate.m in Sources */,
 				09178C5118108B5F00FB3621 /* main.m in Sources */,
 			);
@@ -378,6 +384,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Tap Me/Tap Me-Prefix.pch";
 				INFOPLIST_FILE = "Tap Me/Tap Me-Info.plist";
@@ -391,6 +398,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Tap Me/Tap Me-Prefix.pch";
 				INFOPLIST_FILE = "Tap Me/Tap Me-Info.plist";
@@ -460,6 +468,7 @@
 				09178C7518108B5F00FB3621 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		09178C7618108B5F00FB3621 /* Build configuration list for PBXNativeTarget "Tap MeTests" */ = {
 			isa = XCConfigurationList;
@@ -468,6 +477,7 @@
 				09178C7818108B5F00FB3621 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
